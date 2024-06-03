@@ -31,6 +31,7 @@ class HomeViewController: UIViewController {
         button.setTitle("➜", for: .normal)
         button.layer.cornerRadius = 15
         button.translatesAutoresizingMaskIntoConstraints = false
+        button.addTarget(self, action: #selector(buttonPressed), for: .touchUpInside)
         return button
     }()
     
@@ -47,6 +48,10 @@ class HomeViewController: UIViewController {
         setupAddSubview()
         setupContraints()
     }
+                         
+ @objc private func buttonPressed() {
+            navigationController?.pushViewController(TasksViewController(), animated: true)
+        }
     
     private func setupAddSubview() {
         view.addSubview(logoImage)
@@ -71,10 +76,10 @@ class HomeViewController: UIViewController {
             startButton.widthAnchor.constraint(equalToConstant: 60),
             startButton.heightAnchor.constraint(equalToConstant: 50),
             
-            lampImage.topAnchor.constraint(equalTo: logoImage.bottomAnchor, constant: 120),
-            lampImage.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor, constant: 130),
-            lampImage.widthAnchor.constraint(equalToConstant: 40),
-            lampImage.heightAnchor.constraint(equalToConstant: 40),
+            lampImage.topAnchor.constraint(equalTo: logoImage.bottomAnchor, constant: 125),
+            lampImage.leadingAnchor.constraint(equalTo: titleLabel.leadingAnchor, constant: 140),
+            lampImage.widthAnchor.constraint(equalToConstant: 60),
+            lampImage.heightAnchor.constraint(equalToConstant: 60),
             
         ])
     }
