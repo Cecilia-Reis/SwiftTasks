@@ -7,9 +7,9 @@
 
 import UIKit
 
-class TaksTableViewCell: UITableViewCell {
+class TasksTableViewCell: UITableViewCell {
     
-    static let indentifier: String = "TaksTableViewCell"
+    static let indentifier: String = "TasksTableViewCell"
     
      lazy var titleLabel: UILabel = {
         let label = UILabel()

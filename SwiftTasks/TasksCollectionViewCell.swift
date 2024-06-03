@@ -68,7 +68,7 @@ class TasksCollectionViewCell: UICollectionViewCell {
             stackView.widthAnchor.constraint(equalToConstant: 180),
             stackView.heightAnchor.constraint(equalToConstant: 180),
             
-            titleTaskLabel.topAnchor.constraint(equalTo: stackView.topAnchor, constant: 2),
+            titleTaskLabel.topAnchor.constraint(equalTo: stackView.topAnchor, constant: 25),
             titleTaskLabel.leadingAnchor.constraint(equalTo: stackView.leadingAnchor, constant: 10),
             titleTaskLabel.trailingAnchor.constraint(equalTo: stackView.trailingAnchor, constant: 30),
             

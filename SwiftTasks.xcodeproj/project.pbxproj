@@ -9,21 +9,18 @@
 /* Begin PBXBuildFile section */
 		EB27A96B2C04C788007466A2 /* TaksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27A96A2C04C788007466A2 /* TaksTableViewCell.swift */; };
 		EB8DA3B12C00D3F00053850A /* TasksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8DA3B02C00D3F00053850A /* TasksCollectionViewCell.swift */; };
-		EB9445F62BFE17B900F9CB11 /* TaksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9445F52BFE17B900F9CB11 /* TaksViewController.swift */; };
-		EB9EEB1F2C054276007199C0 /* CheckBoxUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9EEB1E2C054276007199C0 /* CheckBoxUIButton.swift */; };
+		EB9445F62BFE17B900F9CB11 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9445F52BFE17B900F9CB11 /* TasksViewController.swift */; };
 		EBA4B0E42BFCBBF8002AEC62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA4B0E32BFCBBF8002AEC62 /* AppDelegate.swift */; };
 		EBA4B0E62BFCBBF8002AEC62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA4B0E52BFCBBF8002AEC62 /* SceneDelegate.swift */; };
 		EBA4B0E82BFCBBF8002AEC62 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA4B0E72BFCBBF8002AEC62 /* HomeViewController.swift */; };
 		EBA4B0ED2BFCBBFB002AEC62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA4B0EC2BFCBBFB002AEC62 /* Assets.xcassets */; };
 		EBA4B0F02BFCBBFB002AEC62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBA4B0EE2BFCBBFB002AEC62 /* LaunchScreen.storyboard */; };
-		EBA71B982C07778F00AD7E34 /* TaksHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA71B972C07778F00AD7E34 /* TaksHeaderCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB27A96A2C04C788007466A2 /* TaksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaksTableViewCell.swift; sourceTree = "<group>"; };
 		EB8DA3B02C00D3F00053850A /* TasksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCollectionViewCell.swift; sourceTree = "<group>"; };
-		EB9445F52BFE17B900F9CB11 /* TaksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaksViewController.swift; sourceTree = "<group>"; };
-		EB9EEB1E2C054276007199C0 /* CheckBoxUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxUIButton.swift; sourceTree = "<group>"; };
+		EB9445F52BFE17B900F9CB11 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
 		EBA4B0E02BFCBBF8002AEC62 /* SwiftTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA4B0E32BFCBBF8002AEC62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBA4B0E52BFCBBF8002AEC62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +28,6 @@
 		EBA4B0EC2BFCBBFB002AEC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBA4B0EF2BFCBBFB002AEC62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBA4B0F12BFCBBFB002AEC62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBA71B972C07778F00AD7E34 /* TaksHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaksHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,11 +66,9 @@
 				EBA4B0EC2BFCBBFB002AEC62 /* Assets.xcassets */,
 				EBA4B0EE2BFCBBFB002AEC62 /* LaunchScreen.storyboard */,
 				EBA4B0F12BFCBBFB002AEC62 /* Info.plist */,
-				EB9445F52BFE17B900F9CB11 /* TaksViewController.swift */,
+				EB9445F52BFE17B900F9CB11 /* TasksViewController.swift */,
 				EB8DA3B02C00D3F00053850A /* TasksCollectionViewCell.swift */,
 				EB27A96A2C04C788007466A2 /* TaksTableViewCell.swift */,
-				EB9EEB1E2C054276007199C0 /* CheckBoxUIButton.swift */,
-				EBA71B972C07778F00AD7E34 /* TaksHeaderCollectionReusableView.swift */,
 			);
 			path = SwiftTasks;
 			sourceTree = "<group>";
@@ -149,14 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB9EEB1F2C054276007199C0 /* CheckBoxUIButton.swift in Sources */,
 				EB27A96B2C04C788007466A2 /* TaksTableViewCell.swift in Sources */,
 				EBA4B0E82BFCBBF8002AEC62 /* HomeViewController.swift in Sources */,
-				EB9445F62BFE17B900F9CB11 /* TaksViewController.swift in Sources */,
+				EB9445F62BFE17B900F9CB11 /* TasksViewController.swift in Sources */,
 				EBA4B0E42BFCBBF8002AEC62 /* AppDelegate.swift in Sources */,
 				EB8DA3B12C00D3F00053850A /* TasksCollectionViewCell.swift in Sources */,
 				EBA4B0E62BFCBBF8002AEC62 /* SceneDelegate.swift in Sources */,
-				EBA71B982C07778F00AD7E34 /* TaksHeaderCollectionReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
